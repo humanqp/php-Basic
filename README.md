@@ -32,3 +32,18 @@ var_dump(1 === '1');
 
 >### 입출력 그리고  폼과 HTTP
 - $_GET['id']; : php get parameter값을 가져옴
+- $_POST['id'] : php post parameter값을 가져옴
+
+
+>### 함수
+- 기본값을 가지는 함수 정의
+```
+<?php
+  function get_arguments($arg1=100){
+    return $arg1;
+  }
+  echo get_arguments(1);
+  echo ',';
+  echo get_arguments();
+?>
+```
