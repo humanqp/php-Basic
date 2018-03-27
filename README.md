@@ -67,7 +67,7 @@ var_dump(1 === '1');
   array_unshift($li,'z');
   var_dump($li);
 ?>
-``
+```
 - array_splice : 두번째 인덱스 뒤에 대문자 B를 넣고 싶다면 아래와 같이한다.
 ```
 <?php
@@ -76,3 +76,13 @@ var_dump(1 === '1');
   var_dump($li);
 ?>
 ```
+- array_shift : 다음은 배열의 첫번째 요소를 제거
+```
+<?php
+  $li = ('a', 'b', 'c', 'd', 'e', 'z');
+  array_shift($li);
+  var_dump($li);
+?>
+```
+- sort : 정렬
+
