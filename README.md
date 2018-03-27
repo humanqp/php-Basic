@@ -58,4 +58,21 @@ var_dump(1 === '1');
   $member = array('egoing', 'k8805', 'sorialgi');
 ?>
 ```
-
+- count : 배열의 갯수를 가지고 옴
+- array_push : 배열의 끝에 행 추가
+- array_unshift : 배열의 첫번째에 행 추가
+```
+<?php
+  $li = ['a', 'b', 'c', 'd', 'e'];
+  array_unshift($li,'z');
+  var_dump($li);
+?>
+``
+- array_splice : 두번째 인덱스 뒤에 대문자 B를 넣고 싶다면 아래와 같이한다.
+```
+<?php
+  $li = array('a', 'b', 'c', 'd', 'e', 'z');
+  array_splice($li, 2, 0, 'B');
+  var_dump($li);
+?>
+```
