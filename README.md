@@ -47,3 +47,15 @@ var_dump(1 === '1');
   echo get_arguments();
 ?>
 ```
+
+>### 배열
+```
+<?php
+  $member = ['egoing', 'k8805', 'sorialgi'];
+?>
+
+<?php 
+  $member = array('egoing', 'k8805', 'sorialgi');
+?>
+```
+
