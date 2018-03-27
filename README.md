@@ -85,3 +85,13 @@ var_dump(1 === '1');
 ?>
 ```
 - sort : 정렬
+
+>### 파일의 제어
+- copy: 파일 복사
+- unlink : 파일 삭제
+- file_put_contents : 문자열을 파일에 저장
+- file_get_contents : 네트웍크를 통해서 데이터 읽어오기
+- is_readable : 아래 코드는 특정 파일이 읽을 수 있는 상태인지를 확인
+- is_writable : 다음 코드는 특정 파일이 쓰기가 가능한지 확인
+- file_exists : 아래는 파일의 존재 여부를 확인
+- 
