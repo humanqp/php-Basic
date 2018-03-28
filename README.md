@@ -124,3 +124,8 @@ echo '생활코딩의 공식인사는 '.$a[0].' '.$a[1].'입니다';
 ```
 
 >### PDO(PHP Data Objects)
+
+>### Reference
+- isset : 값이 존재하는지 체크
+- empty : 값이 비여 있는지 체크
+- 
