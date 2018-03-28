@@ -3,7 +3,7 @@
 - CGI(Common Gateway Interface)
 
 >### 숫자와 문자
-- var_dump : 변수형을 출력해 주는 Fuc
+- var_dump : 변수형을 출력해 주는 Func
 - 문자 문자 연결 : .
 
 >### 변수
