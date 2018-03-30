@@ -32,7 +32,7 @@ var_dump(1 === '1');
 ```
 
 >### 입출력 그리고  폼과 HTTP
-- $_GET['id']; : php get parameter값을 가져옴
+- $_GET['id'] : php get parameter값을 가져옴
 - $_POST['id'] : php post parameter값을 가져옴
 
 
