@@ -129,7 +129,14 @@ echo '생활코딩의 공식인사는 '.$a[0].' '.$a[1].'입니다';
 >### Reference
 - isset : 값이 존재하는지 체크
 - empty : 값이 비여 있는지 체크
-- 
+- explode : 문자열 나누기
+```
+$pieces = explode (",", $pizza); 
+```
+- implode : 문자열 합치기 -> 별칭 join
+```
+ $comma_separated = implode("|", $array); 
+```
 
 >### shorthand
 ```
